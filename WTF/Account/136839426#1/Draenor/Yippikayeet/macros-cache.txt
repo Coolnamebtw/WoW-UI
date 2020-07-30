@@ -1,0 +1,88 @@
+VER 3 010000000000000A "BS" "INV_MISC_QUESTIONMARK"
+#showtooltip Barbed Shot
+/petattack
+/use Claw
+/use Bite
+/use Smack
+/cast Barbed Shot
+END
+VER 3 010000000000000D "BW" "INV_MISC_QUESTIONMARK"
+#showtooltip Bestial Wrath
+/use Claw
+/use Bite
+/use Smack
+/cast Bestial Wrath
+END
+VER 3 010000000000000C "CS" "INV_MISC_QUESTIONMARK"
+#showtooltip Cobra Shot
+/use Claw
+/use Bite
+/use Smack
+/cast Cobra Shot
+END
+VER 3 010000000000000E "CS2" "INV_MISC_QUESTIONMARK"
+#showtooltip Counter Shot
+/use Claw
+/use Bite
+/use Smack
+/cast Counter Shot
+END
+VER 3 0100000000000008 "FT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Freezing Trap
+END
+VER 3 010000000000000F "Inti" "INV_MISC_QUESTIONMARK"
+#showtooltip Intimidation
+/use Claw
+/use Bite
+/use Smack
+/cast Intimidation
+END
+VER 3 0100000000000007 "Intimidation" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/petpassive
+/petassist
+/petattack
+/use Intimidation
+END
+VER 3 0100000000000003 "Kill Command" "INV_MISC_QUESTIONMARK"
+#showtooltip Kill Command
+/petattack
+/use Claw
+/use Bite
+/use Smack
+/cast [pet] Kill Command; Call Pet 2
+END
+VER 3 0100000000000005 "MD" "INV_MISC_QUESTIONMARK"
+#showtooltip Misdirection
+/cast [@mouseover,help,nodead][@focus,help,nodead]Misdirection
+END
+VER 3 010000000000000B "MoC" "INV_MISC_QUESTIONMARK"
+#showtooltip A Murder of Crows
+/use Claw
+/use Bite
+/use Smack
+/cast A Murder of Crows
+END
+VER 3 0100000000000004 "Multishot" "INV_MISC_QUESTIONMARK"
+#showtooltip Multi-Shot
+/petattack
+/use Claw
+/use Bite
+/use Smack
+/cast Multi-Shot
+END
+VER 3 0100000000000006 "SM" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][@focus,help,nodead][@player]Spirit Mend
+END
+VER 3 0100000000000009 "TT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Tar Trap
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ska[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

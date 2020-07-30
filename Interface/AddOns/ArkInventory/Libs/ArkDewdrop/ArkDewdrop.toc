@@ -1,0 +1,15 @@
+## Interface: 80300
+
+## Title: ArkDewdrop
+## Author: Arkayenro - Khaz'goroth
+## Email: arkayenro at gmail dot com
+## Version: 30107
+## X-ReleaseType: 
+## DefaultState: Disabled
+## LoadOnDemand: 0
+
+## X-Category: Library
+
+LibStub.lua
+
+ArkDewdrop.lua

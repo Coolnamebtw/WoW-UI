@@ -1,0 +1,89 @@
+VER 3 0100000000000010 "BoK" "INV_MISC_QUESTIONMARK"
+#showtooltip Blackout Kick
+/stopmacro [channeling:Fists of Fury]
+/stopcasting [channeling:Crackling Jade Lightning]
+/cast Blackout Kick
+END
+VER 3 0100000000000008 "Detox" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover, noharm, nodead][@target] Detox
+END
+VER 3 0100000000000014 "Dispel All" "1360978"
+/cancelaura Blessing of Protection
+/cancelaura Blessing of Spellwarding
+END
+VER 3 0100000000000017 "Focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Replica of Knowledge
+END
+VER 3 0100000000000012 "FotWT" "INV_MISC_QUESTIONMARK"
+#showtooltip Fist of the White Tiger
+/stopmacro [channeling:Fists of Fury]
+/stopcasting [channeling:Crackling Jade Lightning]
+/cast Fist of the White Tiger
+END
+VER 3 0100000000000019 "General" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/1 Something has spooked one of de brutosaurs, sending it in to a panic, dis chaos is de last thing de city needs, rescue de merchants cargo before you get stomped on!
+/cast Keg Smash
+END
+VER 3 0100000000000018 "KMS" "132094"
+/cancelaura Rejuvenation
+/cancelaura Regrowth
+/cancelaura Lifebloom
+/cancelaura Wild Growth
+/cancelaura Beacon of Light
+END
+VER 3 010000000000000B "Muck" "136089"
+/tar Muck Slug
+END
+VER 3 0100000000000015 "Paralysis" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover, harm, nodead][@target] Paralysis
+END
+VER 3 0100000000000016 "Pull" "1016706"
+/pull 10
+/rw Pulling in 10.
+END
+VER 3 010000000000000D "R/S" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/2, @cursor] Summon Black Ox Statue;[talent:4/3, @cursor] Ring of Peace;
+END
+VER 3 010000000000000F "RSK" "INV_MISC_QUESTIONMARK"
+#showtooltip Rising Sun Kick
+/stopmacro [channeling:Fists of Fury]
+/stopcasting [channeling:Crackling Jade Lightning]
+/cast Rising Sun Kick
+END
+VER 3 0100000000000013 "SPK" "INV_MISC_QUESTIONMARK"
+#showtooltip Spinning Crane Kick
+/stopmacro [channeling:Fists of Fury]
+/stopcasting [channeling:Crackling Jade Lightning]
+/cast Spinning Crane Kick
+END
+VER 3 0100000000000009 "Statue" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Summon Black Ox Statue
+END
+VER 3 010000000000000A "Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/targetexact [mod:shift]Black Ox Statue
+/cast Provoke
+/targetlasttarget [mod:shift]
+END
+VER 3 010000000000000E "TP" "INV_MISC_QUESTIONMARK"
+#showtooltip Tiger Palm
+/stopmacro [channeling:Fists of Fury]
+/stopcasting [channeling:Crackling Jade Lightning]
+/cast Tiger Palm
+END
+VER 3 010000000000000C "Trinket" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+END
+VER 3 0100000000000011 "WDP" "INV_MISC_QUESTIONMARK"
+#showtooltip Whirling Dragon Punch
+/stopmacro [channeling:Fists of Fury]
+/stopcasting [channeling:Crackling Jade Lightning]
+/cast Whirling Dragon Punch
+END

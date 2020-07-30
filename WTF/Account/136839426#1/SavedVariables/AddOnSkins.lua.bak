@@ -1,0 +1,23 @@
+
+AddOnSkinsDB = {
+	["profileKeys"] = {
+		["Stamclappy - Twisting Nether"] = "Default",
+		["Taunter - Draenor"] = "Default",
+		["Yippikayeet - Draenor"] = "Default",
+		["Feetpov - Kazzak"] = "Default",
+		["Gwendolent - Draenor"] = "Default",
+		["Mongofox - Draenor"] = "Default",
+		["Coolnamebtw - Twisting Nether"] = "Default",
+		["Skolliger - Draenor"] = "Default",
+		["Nicechief - Draenor"] = "Default",
+		["Monknamebtw - Twisting Nether"] = "Default",
+		["Iwantdie - Kazzak"] = "Default",
+		["Zatura - Twisting Nether"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+AddOnSkinsDS = {
+}

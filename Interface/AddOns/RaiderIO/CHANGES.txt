@@ -1,0 +1,16 @@
+lightweight tag ab41caf9096153d9fa80c12cd6adaf7498e98f09 v202007270600
+Author:	Jah Raphael <jahraphael@yahoo.com>
+Date:	Mon Jul 27 07:36:31 2020 +0000
+
+commit ab41caf9096153d9fa80c12cd6adaf7498e98f09
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Mon Jul 27 07:36:31 2020 +0000
+
+    [Raider.IO] Database Refresh
+
+commit 05756337a39b530162cf0434c6871bc69f508412
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Sun Jul 26 09:29:07 2020 -0500
+
+    updated .toc so we can detect in client where the version was installed from
+

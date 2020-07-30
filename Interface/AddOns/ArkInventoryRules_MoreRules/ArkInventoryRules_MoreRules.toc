@@ -1,0 +1,21 @@
+﻿## Interface: 80300
+
+## Title: Ark Inventory [Rules] More Rules
+## Notes: Adds more rules to ArkInventory
+## Author: k0nker
+## Version: 8.3
+## X-Embeds: LibItemUpgradeInfo
+
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## RequiredDeps: ArkInventoryRules
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always:delayed
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\LibItemUpgradeInfo-1.0\LibItemUpgradeInfo-1.0.xml
+#@end-no-lib-strip@
+
+ArkInventoryRules_MoreRules.lua

@@ -1,0 +1,18 @@
+## Interface: 80300
+
+## Title: Ark Inventory [Rules]
+## Notes: Rules for ArkInventory
+## Author: Arkayenro
+## Email: arkayenro at gmail dot com
+## Version: 20000
+
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## RequiredDeps: ArkInventory
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+ArkInventoryRules.lua
+
+ArkInventoryRules.xml

@@ -1,0 +1,68 @@
+VER 3 0100000000000010 "AchiFrost" "INV_MISC_QUESTIONMARK"
+/tar Uuna
+/hug
+END
+VER 3 0100000000000009 "AoE Shite Fire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Flamestrike
+END
+VER 3 0100000000000003 "AoEFlame" "135826"
+#showtooltip
+/cast [@cursor] Flamestrike
+END
+VER 3 0100000000000007 "Blizz" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] blizzard
+END
+VER 3 0100000000000006 "Block" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Ice Block
+/cast Ice Block
+END
+VER 3 010000000000000B "Bomb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] Cobalt Frag Bomb
+END
+VER 3 010000000000000A "Burst" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Icy Veins
+/cast Berserking
+END
+VER 3 0100000000000014 "Decurse" "INV_MISC_QUESTIONMARK"
+#showtooltip Remove Curse
+/cast [@mouseover, exists, help] Remove Curse
+END
+VER 3 0100000000000012 "eeq" "132664"
+/way Zandalar 45.87 3.78 Path Start
+/way Zandalar 47.7 -3 Fatigue Reset Zone
+/way Zandalar 55.72 -10.21 Underwater Cave
+END
+VER 3 0100000000000008 "Flurry" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Flurry
+END
+VER 3 010000000000000E "freeze" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Freeze
+END
+VER 3 010000000000000C "Glider" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 15
+END
+VER 3 0100000000000005 "Meteor" "1033911"
+#showtooltip
+/cast [@cursor] Meteor
+END
+VER 3 0100000000000013 "Meteor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Meteor
+END
+VER 3 010000000000000D "r" "572034"
+/target Plague Toad
+/kiss
+END
+VER 3 010000000000000F "red" "132130"
+/target plague toad
+/kiss
+END

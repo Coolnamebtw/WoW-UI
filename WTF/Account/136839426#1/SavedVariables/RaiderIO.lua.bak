@@ -1,0 +1,7 @@
+
+RaiderIO_Config = {
+}
+RaiderIO_LastCharacter = "eu-Stamclappy-twisting-nether"
+RaiderIO_MissingCharacters = {
+	["eu-Stríx-kazzak"] = true,
+}

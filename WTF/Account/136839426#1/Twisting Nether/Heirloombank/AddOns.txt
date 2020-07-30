@@ -1,0 +1,3 @@
+AAP-Core: enabled
+Azeroth Auto Pilot: enabled
+OPie_Classic: disabled

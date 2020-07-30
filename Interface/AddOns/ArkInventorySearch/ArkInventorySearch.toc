@@ -1,0 +1,16 @@
+## Interface: 80300
+
+## Title: Ark Inventory [Search]
+## Author: Arkayenro - Khaz'goroth
+## Email: arkayenro at gmail dot com
+## Version: 20000
+
+## Notes: Search for ArkInventory
+
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## RequiredDeps: ArkInventory
+
+
+ArkInventorySearch.lua
+ArkInventorySearch.xml

@@ -1,0 +1,139 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatHistoryLog"] = {
+		{
+			"FREE ARMOR STACK  <<+15 =135 k>> <Sylvanas Community  +10--+22 in time 100% (2run=5%)  (3run=10% ) (5run= 20 %discount )  || 12=100 ||+18 =490 ||+16 =180 ||  5x15=540 ||5x12=400||  5x10=360 ||  pvp , raid , vision or .... /w me", -- [1]
+			"Syldiscount-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Syldiscount-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-1403-07FE7302", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Syldiscount|r",
+			[51] = 1595819816,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+		{
+			"<Nova Community> Seiling 12/12 HC /MYTHIC Ny'alotha 12/12 +2x trader with Mount/M+(10-22) M+15=135k M+14=125k FREE ARMOR STACK/Vision 0-5 mask , jaina mount/Glory Achievements", -- [1]
+			"Novaboss-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novaboss-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-1403-080D7801", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Novaboss|r",
+			[51] = 1595820235,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
+		{
+			"FREE ARMOR STACK  <<+15 =135 k>> <Sylvanas Community  +10--+22 in time 100% (2run=5%)  (3run=10% ) (5run= 20 %discount )  || 12=100 ||+18 =490 ||+16 =180 ||  5x15=540 ||5x12=400||  5x10=360 ||  pvp , raid , vision or .... /w me", -- [1]
+			"Syldiscount-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Syldiscount-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-1403-07FE7302", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Syldiscount|r",
+			[51] = 1595820243,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"Wtb freehold boost", -- [1]
+			"Senlín-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Senlín-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-1403-07F53CB4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Senlín|r",
+			[51] = 1595820246,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+		{
+			"[WТS] Horrific Visions Challenge Boost, Legendary cloak upgrade, Essences, Allied races, Reputations, Glories, Mounts & other 8.3 BOOSTS! We have over 8349 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Dehelemej-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dehelemej-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-1403-082CD5F2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cDehelemej|r",
+			[51] = 1595820251,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [5]
+		{
+			"<Sylvanas lowest prices> (FREE armor Stack all RUNS)  >>+15=135k<<  +10 =90k   || 11=99k    +12=110k ||+14=125k ||    +15=135k||3x15=370k ||5x15=560k ||||vision  || NYC-hc/mythic   ||Arena boost   ||Jaina RUN /w me for any question you have", -- [1]
+			"Loriia-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Loriia-Draenor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-1403-07E8AC33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Loriia|r",
+			[51] = 1595820256,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+	},
+}

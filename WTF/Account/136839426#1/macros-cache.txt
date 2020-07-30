@@ -1,0 +1,360 @@
+VER 3 000000000000006B " BEAST" "WARRIOR_SKULLBANNER"
+/tar Elusive Quickhoof
+END
+VER 3 000000000000007D "4243" "132096"
+/script SetRaidTarget("mouseover",7)
+END
+VER 3 0000000000000095 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Hearthstone
+END
+VER 3 0000000000000080 "Appearance" "INV_HAND_1H_ARTIFACTURSOC_D_01"
+/run local q,x,_,a,b = GetAchievementCriteriaInfo,0 for i=1,11 do _,_,_,a,b = q(11152,i) x=x+a end local _,_,_,c,d = q(11153,1) local _,_,_,e,f = q(11154,1) print("Dungeons: "..x.."/"..b) print("WQs: "..c.."/"..d) print("Kills: "..e.."/"..f)
+END
+VER 3 000000000000007A "ArtiAbi" "ABILITY_HUNTER_FOCUSFIRE"
+#showtooltip
+/cast Windburst
+/use 12
+END
+VER 3 0000000000000077 "ASAASA" "SPELL_MISC_PETHEAL"
+        
+END
+VER 3 0000000000000089 "Back To Resto" "136041"
+/cancelaura Bear Form
+/cancelaura Cat Form
+/cancelaura Travel Form
+END
+VER 3 0000000000000070 "CANCEL" "INV_ENCHANT_SHARDBRILLIANTSMALL"
+/cancelaura Divine Shield
+END
+VER 3 0000000000000088 "CDS" "571586"
+#showtooltip
+/cast Incarnation: Chosen of Elune
+/cast Berserking
+END
+VER 3 000000000000007B "Cobra" "ABILITY_HUNTER_COBRASHOT"
+#showtooltip
+/petattack
+/cast Cobra Shot
+END
+VER 3 000000000000007F "Cursor Leap" "INV_JEWELRY_TRINKET_04"
+/cast [@cursor] heroic leap
+END
+VER 3 000000000000008C "d" "1376040"
+/flex
+END
+VER 3 000000000000007E "dda" "ABILITY_HUNTER_MISDIRECTION"
+#showtooltip
+/cast [@focus, exists, help][@mouseover, exists, help][] Misdirection
+END
+VER 3 0000000000000068 "DEC" "SPELL_DEATHKNIGHT_ICETOUCH"
+#showtooltip
+#show
+/castsequence reset=target Icy Touch, Plague Strike
+END
+VER 3 0000000000000093 "df" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Vitality Resonator
+/targetlasttarget
+END
+VER 3 0000000000000087 "Eye" "134951"
+END
+VER 3 0000000000000082 "Eye" "136096"
+#showtooltip
+/target Tormenting Eye
+/cast Moonfire
+/targetlasttarget
+END
+VER 3 0000000000000084 "FBRING" "1344646"
+#showtooltip
+/cast Felblade
+/use 12
+END
+VER 3 0000000000000090 "FC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Infernal Strike
+END
+VER 3 0000000000000081 "fdd" "136103"
+/run local a={45470,47207,47208,47209,47210,47211,47212,47213}for i,q in ipairs(a)do print(format("Page %s: %s",i, IsQuestFlaggedCompleted(q) and "\124cFF00FF00Done\124r" or "\124cFFFF0000Not Done\124r")) end
+END
+VER 3 0000000000000076 "FOOD" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/y COME AND GET IT!
+/use Pandaren Treasure Noodle Cart Kit
+END
+VER 3 000000000000006D "G" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/run BuyMerchantItem(27,1)
+END
+VER 3 0000000000000069 "GG" "INV_PET_BATTLEPETTRAINING"
+/1 [5/13 M] Mutilate is now looking for members to join our core team, we are currently looking for a rogue, warlock, shadow priest and pala dps & heal. 4-set + ring and ilvl of 720 required. Raid days: Fri, Sat 19:00 - 22:30. Whisper me for more info!
+END
+VER 3 0000000000000079 "Herher" "ACHIEVEMENT_DUNGEON_OGRESLAGMINES"
+/2 <Nèmesis> 3/10M 10/10 HC is now recruiting a resto shammy and DPS for our Nighthold Mythic progress. Be mature and patient. Raid time: Wed, Thur, Mon 20.00-23.15 server time. Contact me for more info.
+END
+VER 3 0000000000000071 "HoS - MO" "SPELL_HOLY_SEALOFSACRIFICE"
+#showtooltip
+/cast [target=mouseover] Hand of Sacrifice; Hand of Sacrifice
+END
+VER 3 000000000000008F "kay" "611418"
+/follow Kashadin
+END
+VER 3 000000000000006C "LAY ON HANDS " "SPELL_HOLY_SEALOFPROTECTION"
+#showtooltip
+/target Killerclaws
+/cast Hand of Protection
+/targetlasttarget
+END
+VER 3 000000000000005E "LFG" "132390"
+/2 Insanity of OCD (7/13 HC) is recruiting for our raidteam, we are in need of 1 Melee DPS (Unholy / Frost DK) and 3 Ranged DPS (Boomie, Lock, Mage) - Raid days are Monday, Wednesday, Thursday starting at 19:30 until 22:30. /w for more info.
+END
+VER 3 0000000000000072 "LoH - MO" "SPELL_HOLY_LAYONHANDS"
+/cast [target=mouseover] Lay on Hands; Lay on Hands
+END
+VER 3 0000000000000036 "Lvl 60" "ABILITY_MONK_LEGSWEEP"
+/use Leg Sweep
+/use [target=focus] Ring of Peace
+/run local G=GetSpellInfo SetMacroSpell("60 Talents", G"Leg Sweep" or G"Ring of Peace")
+END
+VER 3 0000000000000060 "MD" "ABILITY_HUNTER_MISDIRECTION"
+/target [mouseover]
+/say Misdirecting to: %T
+/cast Misdirection
+/targetlasttarget
+END
+VER 3 0000000000000078 "PET" "ABILITY_HUNTER_KILLCOMMAND"
+#showtooltip
+/petattack
+/cast kill command
+END
+VER 3 000000000000007C "PoDG" "SPELL_NATURE_ANCESTRALGUARDIAN"
+/run BuyMerchantItem(17,30)
+/run BuyMerchantItem(14,60)
+/run BuyMerchantItem(16,60)
+END
+VER 3 0000000000000099 "Portal" "132178"
+/focus [@mouseover]
+END
+VER 3 000000000000003B "Pre" "INV_Potion_149"
+#showtooltip
+/use Virmen's Bite
+/use 10
+END
+VER 3 0000000000000098 "Pull-Short" "3193419"
+/pull 3
+END
+VER 3 000000000000008B "r" "INV_MISC_QUESTIONMARK"
+/roll
+END
+VER 3 0000000000000040 "Raid" "ACHIEVEMENT_GUILD_RIDELIKETHEWIND"
+/2 LFM SoO 25HC tonight, need 2 tanks, 5 healers, 14 DPS, min ilvl 575 and 9/14 HC Experience required, we are using Ventrilo and are going at 20:00 and stopping at 0:00.
+END
+VER 3 0000000000000086 "Rav" "INV_MISC_QUESTIONMARK"
+#showtooltip Bladestorm
+/cast Battle cry
+/cast [target=cursor] Ravager
+/cast Bladestorm
+END
+VER 3 000000000000005C "Recruit" "CREATUREPORTRAIT_PORTAL_ISLEOFCONQUESTALLIANCE"
+/2 - Untitled - is looking for new raiders for our team with a ilvl of 685+ for HFC HC progression, we still need a Holy Paladin, Resto Shaman, Mage, Balance Druid, Warlock. Raid days and times are Mon & Sun from 19:00 - 23:00. /w for info or to apply
+END
+VER 3 0000000000000083 "Recruit" "135833"
+/2 <<Vantus>> 10/10 HC is looking for more players for mythic progression. Raid days wed and sun 20-23ST. We're recruiting for most classes (no rogues, no tanks) that are progress oriented in raids and on a personal level and have experience. W for info
+END
+VER 3 0000000000000096 "Recruit" "135769"
+/2 <Cool Guild Name> is looking to fill the last spots for our Mythic Progression team. We are looking for a Rogue, Boomkin, Shadow Priest, Holy Pala & Resto Shaman. Raid times Mon & Wed 20:30 - 23:00. Wisp for more information. Pulltimer#2472
+END
+VER 3 0000000000000037 "Recruitment" "ACHIEVEMENT_GUILDPERK_GMAIL"
+/2 <Cool Guild Name> 7/8HC is looking to fill the last spots for our Mythic Progression team. We are looking for a Rogue, Boomkin, Shadow Priest, & Resto Shaman. Raid times Mon & Wed 20:30 - 23:00. Wisp for more information. 
+END
+VER 3 0000000000000075 "RF" "ABILITY_HUNTER_RUNNINGSHOT"
+#showtooltip
+/y YUKA WAKA TEKI GO FUCK YOURSELF!!!!
+/cast Trueshot
+/cast Blood Fury
+END
+VER 3 000000000000008E "Rororeororor" "1723986"
+#showtooltip
+/target Wanela
+/cast Tiger's Lust
+/targetlasttarget
+END
+VER 3 0000000000000054 "S" "ACHIEVEMENT_GREATWALL"
+/salute
+END
+VER 3 000000000000006F "SB" "WARRIOR_TALENT_ICON_STORMBOLT"
+#showtooltip
+/cast target=mouseover Storm bolt; Storm bolt
+END
+VER 3 0000000000000058 "SEF" "SPELL_SANDSTORM"
+/target mouseover
+/cast Storm, Earth, and Fire
+/targetlasttarget
+END
+VER 3 0000000000000092 "Sf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Sigil of Chains
+END
+VER 3 0000000000000091 "SoF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Sigil of Flame
+END
+VER 3 000000000000006E "SoTR" "ABILITY_PALADIN_SHIELDOFVENGEANCE"
+#showtooltip Shield of The Righteous
+/cast Shield of The Righteous
+/cast Sacred Shield
+/cast Sacred Shield
+END
+VER 3 0000000000000066 "SPID" "SPELL_SHADOW_ANTISHADOW"
+#showtooltip
+/y Unleashing my green little helpers!
+/use Mirror of the Blademaster
+END
+VER 3 0000000000000038 "SpinningKick" "ABILITY_MONK_CRANEKICK_NEW"
+#showtooltip
+/cast !Spinning Crane Kick
+END
+VER 3 000000000000006A "START" "ABILITY_HUNTER_COBRASTRIKES"
+#show
+/cast Stampede
+/use 13
+END
+VER 3 0000000000000074 "Start" "INV_BOW_1H_FELFIRERAID_D_01.BLP"
+#showtooltip
+/cast Rapid Fire
+/cast Stampede
+END
+VER 3 0000000000000033 "Storm" "SPELL_SANDSTORM"
+#showtooltip Storm, Earth, and Fire
+/cast [target=mouseover, harm, nodead] Storm, Earth, and Fire
+END
+VER 3 0000000000000062 "SuicideCow" "ABILITY_WARRIOR_CHARGE"
+#showtooltip
+/s Allahu Akbar!
+/cast Charge
+/e charges in for the glory of Allah!
+END
+VER 3 0000000000000065 "Switch" "ABILITY_PALADIN_EMPOWEREDSEALS"
+#showtooltip
+/castsequence reset=combat !Seal of Insight, !Seal of Righteousness
+#showcooldown Seal of Insight
+#showcooldown Seal of Righteousness
+END
+VER 3 0000000000000067 "Target" "CREATUREPORTRAIT_PORTAL_ISLEOFCONQUESTALLIANCE"
+/run SetRaidTarget("target", 7);
+END
+VER 3 000000000000005F "TAS" "SPELL_NATURE_SHAMANRAGE"
+#showtooltip
+/cast [target=mouseover,harm,nodead] [] Dark Command
+END
+VER 3 0000000000000049 "Taunt" "SPELL_NATURE_REINCARNATION"
+#showtooltip Taunt
+/cast [@mouseover,harm][] Taunt
+END
+VER 3 0000000000000085 "TEST" "INV_MISC_QUESTIONMARK"
+/cast [@cursor] Gift of the Queen
+END
+VER 3 0000000000000064 "ToC - MO" "ABILITY_MONK_TOUCHOFKARMA"
+#showtooltip Touch of Karma
+/cast [target=mouseover, harm, nodead] Touch of Karma
+END
+VER 3 0000000000000097 "Trinket Slot 1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+END
+VER 3 000000000000008D "Trueshot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Trueshot
+/cast Berserking
+END
+VER 3 0000000000000042 "TS3" "SPELL_SHADOW_RAISEDEAD"
+/raid TEAMSPEAK 3 DETAILS
+/raid IP: 94.214.171.179
+/raid Password: Cookie123
+END
+VER 3 000000000000003F "VENT" "INV_SWORD_27"
+/raid Vent details
+/raid IP: 212.83.58.4
+/raid PORT: 3814
+/raid No password is used. 
+END
+VER 3 000000000000004A "Vigilance" "ABILITY_WARRIOR_VIGILANCE"
+#showtooltip Vigilance
+/cast [@mouseover] Vigilance; Vigilance
+END
+VER 3 0000000000000059 "Void SV" "INV_PET_BATTLEPETTRAINING"
+/way 57.3 26.7 http://i.imgur.com/TLZxHdW.jpg
+/way 40.5 47.6 http://i.imgur.com/4Sdcz9F.jpg
+/way 45.9 31.4 http://i.imgur.com/QSyZQLR.jpg
+END
+VER 3 0000000000000050 "Way 2" "SPELL_FROST_WIZARDMARK"
+/way 57.92, 64.96
+/way 57.59, 71.12
+/way 51.90, 76.67
+/way 52.70, 72.25
+/way 55.36, 59.55
+/way 55.36, 52.64
+/way 51.80, 54.83
+/way 49.29, 64.98
+/way 44.88, 78.80
+/way 46.50, 70.75
+/way 46.13, 69.05
+/way 45.66, 67.06
+/way 45.65, 64.49
+/way 40.81, 76.04
+END
+VER 3 0000000000000051 "Way 3" "SPELL_FROST_WIZARDMARK"
+/way 36.63, 73.52
+/way 39.17, 67.73
+/way 42.83, 55.87
+/way 48.21, 49.07
+/way 47.81, 43.45
+/way 45.08, 37.85
+/way 42.83, 35.21
+/way 31.54, 66.62
+/way 27.24, 67.75
+/way 26.49, 66.37
+/way 29.58, 50.75
+/way 29.82, 44.95
+/way 32.23, 41.35
+/way 29.29, 36.73
+END
+VER 3 0000000000000052 "Way 4" "SPELL_FROST_WIZARDMARK"
+/way 22.64, 34.02
+/way 20.27, 38.30
+/way 31.96, 61.77
+/way 41.70, 43.08
+/way 32.90, 80.36
+/way 51.01, 44.40
+/way 55.19, 45.78
+/way 44.69, 37.35
+END
+VER 3 000000000000005D "WIPE" "133730"
+/amr wipe
+/rw {skull} WIPE NOW {skull}
+/rw COMBAT LOGGING HAS STOPPED
+END
+VER 3 000000000000004F "Wy1" "SPELL_FROST_WIZARDMARK"
+/way 64.42, 92.09
+/way 56.48, 85.83
+/way 63.51, 77.55
+/way 67.47, 81.08
+/way 70.93, 79.84
+/way 68.09, 76.75
+/way 71.23, 73.56
+/way 74.08, 70.42
+/way 70.88, 65.85
+/way 66.40, 66.90
+/way 71.85, 59.94
+/way 68.78, 52.29
+/way 61.10, 54.18
+/way 58.82, 35.39
+END
+VER 3 0000000000000073 "XHUL" "SPELL_HOLY_UNYIELDINGFAITH"
+#showtooltip
+/target Xhul'horac
+/cast Reckoning
+END
+VER 3 000000000000008A "yo" "644389"
+/i Sup y'all it's ya boi Pulltimerino and today I'm here to show you to do make this run al dente in under 10 minutes.
+END
+VER 3 0000000000000094 "ZygorAction1" "134400"
+END

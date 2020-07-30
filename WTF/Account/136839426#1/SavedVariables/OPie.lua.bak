@@ -1,0 +1,114 @@
+
+OneRing_Config = {
+	["CharProfiles"] = {
+	},
+	["_GameVersion"] = "8.3.7",
+	["_OPieVersion"] = "Walnut 6 (3.101)",
+	["ProfileStorage"] = {
+		["default"] = {
+			["Bindings"] = {
+				["Mounts"] = "NUMPAD2",
+				["arthstones"] = "NUMPAD1",
+				["Macros"] = "NUMPAD5",
+			},
+		},
+	},
+	["PersistentStorage"] = {
+		["RingKeeper"] = {
+			["Mounts"] = {
+				{
+					["id"] = 150544,
+					["sliceToken"] = "ABuejUJwzn7",
+				}, -- [1]
+				{
+					"mount", -- [1]
+					864, -- [2]
+					["sliceToken"] = "ABuejIiMiDr",
+				}, -- [2]
+				{
+					"mount", -- [1]
+					478, -- [2]
+					["sliceToken"] = "ABuejUJwznE",
+				}, -- [3]
+				{
+					"mount", -- [1]
+					1219, -- [2]
+					["sliceToken"] = "ABuejUJwznW",
+				}, -- [4]
+				{
+					"mount", -- [1]
+					633, -- [2]
+					["sliceToken"] = "ABuejUJwznQ",
+				}, -- [5]
+				{
+					"mount", -- [1]
+					460, -- [2]
+					["sliceToken"] = "ABuejUJwznm",
+				}, -- [6]
+				{
+					"mount", -- [1]
+					875, -- [2]
+					["sliceToken"] = "ABuejUJwznn",
+				}, -- [7]
+				["name"] = "Mounts",
+				["save"] = true,
+				["hotkey"] = "NUMPAD2",
+				["limit"] = "Monknamebtw-TwistingNether",
+			},
+			["arthstones"] = {
+				{
+					"item", -- [1]
+					140192, -- [2]
+					["sliceToken"] = "ABuejUJwzn3",
+				}, -- [1]
+				{
+					"item", -- [1]
+					110560, -- [2]
+					["sliceToken"] = "ABuejUJwzns",
+				}, -- [2]
+				{
+					"toy", -- [1]
+					172179, -- [2]
+					["sliceToken"] = "ABuejUJwzna",
+				}, -- [3]
+				["limit"] = "Monknamebtw-TwistingNether",
+				["save"] = true,
+				["hotkey"] = "NUMPAD1",
+				["name"] = "Hearthstones",
+			},
+			["Macros"] = {
+				{
+					["sliceToken"] = "ABuejUJwznw=",
+					["caption"] = "3 second pulltimer",
+					["icon"] = 525134,
+					["id"] = "/pull 3",
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuejUJwznwL",
+					["caption"] = "10 second pulltimer",
+					["icon"] = 236562,
+					["id"] = "/pull 10",
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuejUJwznwK",
+					["caption"] = "20 second pulltimer",
+					["icon"] = 236563,
+					["id"] = "/pull 20",
+				}, -- [3]
+				{
+					["sliceToken"] = "ABuejUJwznwJ",
+					["caption"] = "Stops the pull",
+					["icon"] = 136190,
+					["id"] = "/pull 0",
+				}, -- [4]
+				["name"] = "Macros",
+				["save"] = true,
+				["hotkey"] = "NUMPAD5",
+			},
+			["OPieFlagStore"] = {
+				["StoreVersion"] = 2,
+			},
+		},
+	},
+	["_GameLocale"] = "enUS",
+}

@@ -1,0 +1,37 @@
+VER 3 0100000000000008 "BoF" "INV_MISC_QUESTIONMARK"
+END
+VER 3 010000000000000A "BoF" "INV_MISC_QUESTIONMARK"
+#showtooltip Blessing of Freedom
+/cast [target=mouseover,exists] Blessing of Freedom; [help,nodead] Blessing of Sacrifice; [target=player] Blessing of Freedom
+END
+VER 3 0100000000000009 "BoP" "INV_MISC_QUESTIONMARK"
+#showtooltip Blessing of Protection
+/cancelaura Blessing of Protection
+/cast [target=mouseover,exists] Blessing of Protection; [help,nodead] Blessing of Protection; [target=player] Blessing of Protection
+END
+VER 3 0100000000000007 "BoS" "INV_MISC_QUESTIONMARK"
+#showtooltip Blessing of Sacrifice
+/cast [target=mouseover,exists] Blessing of Sacrifice; [help,nodead] Blessing of Sacrifice; [target=player] Blessing of Sacrifice
+END
+VER 3 0100000000000003 "DivineShield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Divine Shield
+/cast Divine Shield
+END
+VER 3 0100000000000005 "FoL" "INV_MISC_QUESTIONMARK"
+#showtooltip Flash of Light
+/cast [target=mouseover,exists] Flash of Light; [help,nodead] Flash of Light; [target=player] Flash of Light
+END
+VER 3 0100000000000006 "LoH" "INV_MISC_QUESTIONMARK"
+/cast [target=mouseover,exists] Lay on Hands; [help,nodead] Lay on Hands; [target=player] Lay on Hands
+END
+VER 3 0100000000000004 "PULL" "1360757"
+/pull 5
+/y Pulling in 5!
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Pul[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

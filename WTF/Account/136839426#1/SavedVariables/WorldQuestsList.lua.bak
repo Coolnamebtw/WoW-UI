@@ -1,0 +1,187 @@
+
+VWQL = {
+	["Scale"] = 0.8,
+	["DisableIconsGeneralMap947"] = true,
+	["Yippikayeet-Draenor"] = {
+		["VERSION"] = 92,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Skolliger-Draenor"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[40298] = true,
+		},
+		["VERSION"] = 92,
+	},
+	["Sort"] = 5,
+	["VERSION"] = 92,
+	["Coolnamebtw-TwistingNether"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[55466] = true,
+			[58744] = true,
+		},
+		["VERSION"] = 92,
+	},
+	["Monknamebtw-TwistingNether"] = {
+		["VERSION"] = 92,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[56139] = true,
+			[51107] = true,
+			[51095] = true,
+			[53963] = true,
+			[50521] = true,
+			[51173] = true,
+			[51608] = true,
+			[52892] = true,
+			[56393] = true,
+			[52169] = true,
+			[50496] = true,
+			[52884] = true,
+			[55303] = true,
+			[55304] = true,
+			[58746] = true,
+			[54190] = true,
+			[50559] = true,
+			[50503] = true,
+			[51496] = true,
+			[52799] = true,
+			[52862] = true,
+			[52832] = true,
+			[51908] = true,
+			[51422] = true,
+			[51181] = true,
+			[52335] = true,
+			[50853] = true,
+			[50885] = true,
+			[50483] = true,
+			[51042] = true,
+			[55343] = true,
+		},
+		["Filter"] = 63,
+	},
+	["Druidnamebtw-TwistingNether"] = {
+		["VERSION"] = 92,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Mongofox-Draenor"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 92,
+	},
+	["Taunter-Draenor"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 92,
+	},
+	["Ignore"] = {
+	},
+	["AzeriteFormat"] = 20,
+	["Gwendolent-Draenor"] = {
+		["VERSION"] = 92,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Iwantdie-Kazzak"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 92,
+	},
+	["SortPrio"] = {
+	},
+	["Medrunk-Kazzak"] = {
+		["VERSION"] = 92,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Zatura-TwistingNether"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 92,
+	},
+	["Edgynamebtw-TwistingNether"] = {
+		["VERSION"] = 92,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Stamclappy-TwistingNether"] = {
+		["VERSION"] = 92,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Feetpov-Kazzak"] = {
+		["VERSION"] = 92,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Angrynamebtw-TwistingNether"] = {
+		["VERSION"] = 92,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Nicechief-Draenor"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 92,
+	},
+	["Coolnamebtw-Draenor"] = {
+		["VERSION"] = 92,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["HideLegion"] = true,
+}
