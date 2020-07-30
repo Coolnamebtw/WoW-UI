@@ -1,0 +1,7 @@
+# Root folder
+*.exe
+*.dll
+*.dll
+
+Cache/
+Utils/
